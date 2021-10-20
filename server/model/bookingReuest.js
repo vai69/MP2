@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 
-const bookingSchema = new mongoose.Schema({
+const bookingReuestSchema = new mongoose.Schema({
   user:{
     type: String,
     required : true
@@ -33,5 +33,5 @@ const bookingSchema = new mongoose.Schema({
 })
 
 
-const Booking = mongoose.model('BOOK',bookingSchema);
+const Booking = mongoose.model('BookingRequest',bookingRequestSchema);
 module.exports = Booking;

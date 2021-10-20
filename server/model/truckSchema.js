@@ -33,7 +33,13 @@ const truckSchema = new mongoose.Schema({
   transemail:{
     type: String,
     required: true
-  }
+  },
+  driver:[
+    {
+      type:String,
+        required:true;
+    }
+  ],
 })
 
 

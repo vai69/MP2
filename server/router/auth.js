@@ -14,6 +14,7 @@ const Truck = require("../model/truckSchema");
 
 const Booking = require("../model/bookingSchema");
 const { update } = require('../model/userSchema');
+const Driver = require("../model/driverSchema");
 
 router.get("/",(req,res) => {
   res.send('Hello from router');
